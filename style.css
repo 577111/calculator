@@ -1,0 +1,21 @@
+/* মোবাইল রেসপনসিভ ডিজাইন ক্লাস */
+@media screen and (max-width: 600px) {
+    /* জন্ম তারিখ ইনপুট ফিল্ড এবং বটন কি-সাইজ পরিবর্তন করা */
+    input[type="date"] {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    button {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    /* প্যারাগ্রাফের কি-সাইজ পরিবর্তন করা */
+    p {
+        font-size: 18px;
+    }
+}
